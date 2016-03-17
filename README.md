@@ -20,7 +20,7 @@ System client library for dvesta-gateway. Connnects via web sockets to gateway a
 <dependency>
   <groupId>se.marell</groupId>
   <artifactId>dvesta-gateway-client</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ...
 ```
