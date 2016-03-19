@@ -46,7 +46,10 @@ class StringMessageFrameHandler implements StompFrameHandler {
             String command = tokens[0];
             List<String> args = new ArrayList<>(Arrays.asList(tokens));
             args.remove(0);
+            logger.info("Calling listener, command: {}, num args: {}", command, args.size());
             commandListener.command(responseSender, message.getMessageId(), command, args);
+        } else {
+            logger.info("Ignoring empty command");
         }
     }
 }

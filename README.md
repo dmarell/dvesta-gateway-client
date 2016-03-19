@@ -2,6 +2,8 @@
 System client library for dvesta-gateway. Connnects via web sockets to gateway and listens for commands.
 
 ## Release notes
+* Version 1.0.2 - 2016-03-19
+  * Added logging.
 * Version 1.0.1 - 2016-03-17
   * New groupId
 * Version 1.0.0 - 2016-03-17
